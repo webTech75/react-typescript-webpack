@@ -1,0 +1,27 @@
+.title-wrapper {
+    background-color: #3ca6dd;
+    h1 {
+        font-family: proxima-nova-medium !important;
+        margin-top: 0;
+        color: #fff;
+        padding: 15px 0;
+    }
+}
+.ad-materials-table {
+    font-family: proxima-nova-medium;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+    thead {
+        background-color: #d9dad9;
+        color: #000;
+        font-family: proxima-nova-semibold;
+    }
+    th {
+        padding: 17px 20px;
+    }
+    tbody {
+        color: #000;
+    }
+    td {
+        padding: 25px 20px;
+    }
+}

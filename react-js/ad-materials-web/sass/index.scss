@@ -1,0 +1,8 @@
+@import "./components-web/fonts";
+@import "./components-web/atomic";
+
+.app-container-wrapper {
+    min-height: 1000px;
+    @import "./components-web/responsive-width-template";
+    @import "ad-materials";
+}

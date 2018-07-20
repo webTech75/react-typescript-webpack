@@ -1,0 +1,23 @@
+//should remove the important once the bootstrap is fixed
+@import "studio-responsive-theme/header";
+@import "studio-responsive-theme/buttons";
+@import "studio-responsive-theme/label";
+@import "studio-responsive-theme/alerts";
+@import "studio-responsive-theme/form";
+@import "studio-responsive-theme/nav";
+@import "studio-responsive-theme/bars";
+@import "studio-responsive-theme/app-title";
+
+.container {
+  width: 100%;
+}
+.fixed-width {
+  width: 98%;
+  margin: auto;
+}
+@media (min-width: 1400px) {
+  .fixed-width {
+    width: 1400px;
+    margin: auto;
+  }
+}

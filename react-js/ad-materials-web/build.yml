@@ -1,0 +1,9 @@
+---
+- name: "{{ item }}: npm install"
+  npm:
+    path: "{{ BUILD_DIR }}"
+
+- name: "{{ item }}: npm run-script start:prod"
+  command: npm run-script start:prod
+  args:
+    chdir: "{{ BUILD_DIR }}"
